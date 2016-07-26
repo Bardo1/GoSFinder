@@ -16,6 +16,10 @@ GoSFinder es un "web-crawler" que proporciona el punto de acceso al panel de adm
 ```sh
 python2 GoSFinder.py
 python2 GoSFinder.py -n "Tu Nick"
+
+Asegurate de escribir / al final de cada url. Ejemplo:
+> SITIO PARA SCANEAR: wwww.foobar.com/
+
 ```
 ###
 Contáctenos 
