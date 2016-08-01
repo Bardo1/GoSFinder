@@ -7,10 +7,11 @@ GoSFinder es un "web-crawler" que proporciona el punto de acceso al panel de adm
 ### Requisitos
 
 https://pypi.python.org/pypi/colorama
-Paso 1: Ve hacia el archivo de colorama despues que lo descarges por cmd Ejemplo: Lo descargaste al Desktop cd C:\User\Administrator\Desktop\Colorama\
-Paso 2: Corre colorama con python 2 ```sh C:\Python27\python.exe setup.py install ``` 
-O puedes usar PIP so lo tienes inatallado 
- ```sudo pip install colorama```
+- Paso 1: Ve hacia el archivo de colorama despues que lo descarges por cmd 
+   - Ejemplo: Lo descargaste al Desktop ```cd C:\User\Administrator\Desktop\Colorama\```
+- Paso 2: Corre colorama con python 2 y installalo```C:\Python27\python.exe setup.py install ``` 
+- O puedes usar PIP si lo tienes inatallado 
+   ```sudo pip install colorama```
 
 
 ### Instalación
