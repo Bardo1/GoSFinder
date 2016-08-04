@@ -1,6 +1,7 @@
 import urllib2
 from colorama import *
 import argparse
+import os
 __author__ = 'Katz'
 __version__ = '1.0'
 
@@ -17,7 +18,10 @@ __version__ = '1.0'
  WEB CRAWL
 =======================
  """
-
+# Para limpiar la consola sea windows o linux
+clear = lambda: os.system('cls' if os.name=='nt' else 'clear')
+clear()
+#
 parser = argparse.ArgumentParser()
 parser.add_argument("-n","--nombre", help="USAGE: python2 ghostofshell.py -a GoS")
 args = parser.parse_args()
@@ -52,6 +56,10 @@ try:
         array=arr   
         
         length = max(map(len, array)) + len(website)
+    #Barra invertida al final de la direccion web
+    website = website + "/"
+    #Evita que se repita las direcciones
+    array = list(set(array))
     for i in array:
         try:
             panel = urllib2.urlopen(website+i)
