@@ -34,7 +34,7 @@ Asegurate de escribir / al final de cada url. Ejemplo:
 
 - Eliminar texto duplicado en la lista
 - Añadir más nombres de panels de administración.
-- Limpiar la terminal cuando se ejecuta el programa 
+- Limpiar la terminal cuando se ejecuta el programa * Echo por (pablocordova)
 - Añadir / al inicio de cada enlace para eliminar la necesidad de escribirlo al final de cada enlace. 
 
 ###Contáctenos 
